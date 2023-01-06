@@ -211,3 +211,19 @@
     background-color: #FF5959;
     cursor: pointer;
 }
+
+/* footer styles */
+.footer {
+    background-color: #0B0D17;
+    padding: 43px 0;
+    text-align: center;
+}
+
+.footer img {
+    margin-bottom: 24px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+}
