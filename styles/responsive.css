@@ -1,0 +1,69 @@
+@media only screen and (max-width: 768px) {
+    br {
+        display: none !important;
+    }
+
+    .banner_content {
+        margin: 0 10px;
+    }
+
+    .banner_content h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .donate {
+        margin: 0 10px;
+    }
+
+    .donate_amount {
+        margin: 0;
+    }
+
+    .amount {
+        grid-template-columns: auto auto;
+        grid-row-gap: 22px;
+    }
+
+    .donate_plan {
+        margin: 0 10px 130px;
+    }
+
+    .donate_carts {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+        margin-bottom: 100px;
+    }
+
+    .donate_des_box {
+        display: block;
+        margin: 0 10px;
+    }
+
+    .donate_details>.donate_des_box {
+        margin: 0;
+    }
+
+    .donate_des_box img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .subscribe_box {
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .subscribe input {
+        width: 150px;
+    }
+
+    .btn_subscribe {
+        color: #fff;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        background-color: #FF5959;
+        cursor: pointer;
+    }
+}
